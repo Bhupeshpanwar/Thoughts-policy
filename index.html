@@ -1,12 +1,15 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Thoughts</title>
+    <title>Privacy Policies - Thoughts and Crypto Ticker</title>
 
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -16,9 +19,32 @@
             color: #222;
         }
 
+        .topnav {
+            max-width: 850px;
+            margin: 30px auto 0;
+            padding: 0 35px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .topnav a {
+            color: #1a4bd6;
+            text-decoration: none;
+            margin-left: 14px;
+            font-weight: bold;
+        }
+
+        .topnav a:first-of-type {
+            margin-left: 8px;
+        }
+
+        .topnav a:hover {
+            text-decoration: underline;
+        }
+
         .container {
             max-width: 850px;
-            margin: 40px auto;
+            margin: 20px auto 40px;
             background: #ffffff;
             padding: 35px;
             border-radius: 10px;
@@ -57,8 +83,12 @@
         }
 
         @media (max-width: 600px) {
+            .topnav {
+                padding: 0 20px;
+            }
+
             .container {
-                margin: 0;
+                margin: 20px 0 30px;
                 border-radius: 0;
                 padding: 25px 20px;
             }
@@ -68,7 +98,14 @@
 
 <body>
 
-<div class="container">
+<nav class="topnav">
+    Privacy policies for:
+    <a href="#thoughts">Thoughts</a>
+    <a href="#crypto-ticker">Crypto Ticker</a>
+</nav>
+
+<!-- ===================== THOUGHTS ===================== -->
+<div class="container" id="thoughts">
 
     <h1>Privacy Policy for Thoughts</h1>
 
@@ -197,6 +234,141 @@
 
 </div>
 
+<!-- ===================== CRYPTO TICKER ===================== -->
+<div class="container" id="crypto-ticker">
+
+    <h1>Privacy Policy for Crypto Ticker</h1>
+
+    <p class="updated">
+        Last updated: October 8, 2026
+    </p>
+
+    <p>
+        This Privacy Policy explains how the Crypto Ticker app ("Crypto Ticker", "the App", "we", "us",
+        or "our") handles information when you use the App.
+    </p>
+
+    <p>
+        Crypto Ticker lets you choose cryptocurrencies, view their live prices, and optionally show the
+        prices of up to five starred coins in an Android notification.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+
+    <p>
+        We do not collect, store, or transmit any personal information about you.
+        The App has no user accounts, no sign-in, and no analytics or crash-reporting tools.
+        We do not operate any servers that receive data from the App.
+    </p>
+
+    <h2>2. Information Stored on Your Device</h2>
+
+    <p>
+        To work properly, the App saves the following information locally on your device only:
+    </p>
+
+    <ul>
+        <li>The cryptocurrencies you selected</li>
+        <li>The coins you starred</li>
+        <li>Whether the price notification is turned on</li>
+        <li>A saved list of available coin names and the most recent prices shown in the notification</li>
+    </ul>
+
+    <p>
+        This information never leaves your device. Uninstalling the App or clearing its data
+        removes it.
+    </p>
+
+    <h2>3. Market Data from Binance</h2>
+
+    <p>
+        The App gets public cryptocurrency market data (coin names and prices) directly from
+        Binance's public API and WebSocket services. Your device connects to Binance directly;
+        the data does not pass through any server of ours.
+    </p>
+
+    <p>
+        The App does not use any Binance account or API key, and it does not send your selected coins,
+        starred coins, or any personal information to Binance. As with any internet connection,
+        Binance may receive technical information such as your IP address when your device connects to it.
+        How Binance handles that information is described in Binance's own privacy policy.
+    </p>
+
+    <h2>4. Notifications</h2>
+
+    <p>
+        On Android 13 and newer, the App asks for permission to show notifications. This permission
+        is optional and is used only to show the price notification that you turn on.
+        The notification is created on your device from public price data. Its "Reload" button
+        fetches fresh prices from Binance and replaces the notification.
+    </p>
+
+    <p>
+        You can turn the notification off inside the App, or block it at any time in your
+        Android device settings.
+    </p>
+
+    <h2>5. Permissions</h2>
+
+    <p>
+        The App uses the Internet permission to load market data, and the notification permission
+        described above. The App does not access your contacts, location, camera, microphone,
+        photos, or files.
+    </p>
+
+    <h2>6. Data Sharing</h2>
+
+    <p>
+        We do not sell, rent, or share your information with third parties, because we do not
+        collect it.
+    </p>
+
+    <h2>7. Advertising</h2>
+
+    <p>
+        The App does not show advertisements. If advertising is added in the future, this Privacy
+        Policy will be updated to explain what information those services may collect.
+    </p>
+
+    <h2>8. Not Financial Advice</h2>
+
+    <p>
+        Prices shown in the App come from Binance and can be delayed by a second or more, or be
+        temporarily unavailable. The App is for information only and is not financial, investment,
+        or trading advice. Crypto Ticker cannot buy, sell, or hold cryptocurrency, and it is not
+        a wallet or an exchange. Crypto Ticker is not affiliated with or endorsed by Binance.
+    </p>
+
+    <h2>9. Children's Privacy</h2>
+
+    <p>
+        Crypto Ticker is not specifically directed toward children under the age of 13.
+        We do not knowingly collect personal information from children.
+    </p>
+
+    <h2>10. Changes to This Privacy Policy</h2>
+
+    <p>
+        We may update this Privacy Policy from time to time. Any changes will be posted
+        on this page with an updated "Last updated" date.
+    </p>
+
+    <h2>11. Contact Us</h2>
+
+    <p>
+        If you have questions about this Privacy Policy or the privacy practices of the App,
+        you can contact us at:
+    </p>
+
+    <p>
+        <strong>Email:</strong> bhupeshpanwar@example.com
+    </p>
+
+    <footer>
+        &copy; 2026 Crypto Ticker. All rights reserved.
+    </footer>
+
+</div>
+
 </body>
 </html>
-```
